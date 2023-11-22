@@ -3,6 +3,11 @@
     background-color: bisque;
 }
 
-.item {
+.item a {
     color: black;
+    text-decoration: none;
+}
+
+.item a.activeLink{
+    color:crimson;
 }
