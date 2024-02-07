@@ -19,10 +19,10 @@ let state = {
       ]}
   }
 
-  export let addPost = (postMessage) =>{
+  export let addPost = () =>{
       let newPost = {
         id : 5, 
-        text : postMessage,
+        text : state.profilePage.newPostText,
         likes : 0
       }
 
